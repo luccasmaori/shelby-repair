@@ -1,0 +1,278 @@
+html {
+    background-color: #343a40;
+}
+
+body {
+    font-family: 'Play', sans-serif !important;
+}
+
+/* navbar */
+.logo-topbar a {
+    color: rgb(238, 143, 0) !important;
+    font-weight: bold;
+}
+
+.navbar ul a {
+    color: rgb(238, 143, 0) !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar ul a:hover {
+    color: rgb(189, 113, 0) !important;
+}
+
+.navbar-toggler {
+    color: rgb(238, 143, 0) !important;
+}
+
+/* apresentacao */
+.apresentacao {
+    color: rgb(255, 255, 255);
+    padding: 20vh 0;
+    height: 100vh;
+}
+
+.apresentacao h1, p {
+    font-weight: bold;
+}
+
+.apresentacao button {
+    border: 1px solid rgb(238, 143, 0);
+    color: rgb(238, 143, 0);
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.apresentacao button:hover {
+    background-color: rgb(238, 143, 0);
+    border: 1px solid rgb(238, 143, 0);
+}
+
+.apresentacao button:active {
+   border: 1px solid rgb(238, 143, 0);
+   box-shadow: 0 0px 2px 3px rgba(238, 143, 0, 0.377) !important;
+   background-color: rgb(238, 143, 0) !important;
+   border: 1px solid rgb(238, 143, 0) !important;
+}
+
+.apresentacao button:focus {
+   border: 1px solid rgb(238, 143, 0);
+   box-shadow: 0 0px 2px 3px rgba(238, 143, 0, 0.377) !important;
+}
+
+/* imagens */
+.imagens .card {
+    border-color: rgb(238, 143, 0) !important; 
+}
+
+/* sobre */
+.sobre {
+    padding: 30px;
+    color: white;
+}
+
+.sobre h2 {
+    color: rgb(238, 143, 0);
+    padding-bottom: 20px;
+}
+
+/* servicos */
+.servicos {
+    padding: 30px;
+}
+
+
+.servicos .card {
+    border-color: rgb(238, 143, 0) !important; 
+}
+
+.servicos h2 {
+    color: rgb(238, 143, 0);
+    padding-bottom: 20px;
+}
+
+.servicos img {
+    width: 30%;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.margin-card {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 575px) {
+    .margin-card {
+        margin-bottom: 0;
+    }
+}
+
+/* contato */
+.contato {
+    margin: 0 50px;
+}
+
+.contato h2 {
+    color: rgb(238, 143, 0);
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.contato input {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(238, 143, 0);
+}
+
+.contato input:focus{
+    border: 1px solid rgb(238, 143, 0);
+    box-shadow: 0 0px 2px 3px rgba(238, 143, 0, 0.377);
+    
+}
+
+.contato select {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(238, 143, 0);
+}
+
+.contato select:focus{
+    border: 1px solid rgb(238, 143, 0);
+    box-shadow: 0 0px 2px 3px rgba(238, 143, 0, 0.377);
+    
+}
+
+.contato textarea {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(238, 143, 0);
+}
+
+.contato textarea:focus {
+    border: 1px solid rgb(238, 143, 0);
+    box-shadow: 0 0px 2px 3px rgba(238, 143, 0, 0.377);
+    
+}
+
+.contato button {
+     background-color: rgb(238, 143, 0) !important;
+     border: rgb(238, 143, 0) !important;
+}
+
+.contato button:hover {
+    background-color: rgb(158, 95, 0) !important;
+}
+
+.contato button:active {
+    border: 1px solid rgb(238, 143, 0);
+    box-shadow: 0 0px 2px 3px rgba(238, 143, 0, 0.377) !important;
+}
+
+.contato button:focus {
+    border: 1px solid rgb(238, 143, 0);
+    box-shadow: 0 0px 2px 3px rgba(238, 143, 0, 0.377) !important;
+}
+
+.contato img {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+/* endereco */
+.endereco {
+    margin: 50px 50px;
+}
+
+.endereco h2 {
+    color: rgb(238, 143, 0);
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+/* trabalhe conosco */
+.trabalhe-conosco {
+    margin: 0 50px;
+    background-image: url("../img/bgtrabalheconosco.png") !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.trabalhe-conosco h2 {
+    color: rgb(238, 143, 0) !important;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.trabalhe-conosco input {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    color: rgb(163, 163, 163) !important;
+}
+
+.trabalhe-conosco input::placeholder{
+    color: rgb(163, 163, 163);
+}
+
+.trabalhe-conosco input:focus{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 0px 2px 3px rgba(255, 255, 255, 0.377);
+}
+
+.trabalhe-conosco select {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.trabalhe-conosco select:focus{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 0px 2px 3px rgba(255, 255, 255, 0.377);
+    
+}
+
+.trabalhe-conosco textarea {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.trabalhe-conosco textarea:focus {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 0px 2px 3px rgba(255, 255, 255, 0.377);
+    
+}
+
+.trabalhe-conosco button {
+     background-color: rgb(238, 143, 0) !important;
+     border: rgb(238, 143, 0) !important;
+}
+
+.trabalhe-conosco button:hover {
+    background-color: rgb(158, 95, 0) !important;
+}
+
+.trabalhe-conosco button:active {
+    border: 1px solid rgb(238, 143, 0);
+    box-shadow: 0 0px 2px 3px rgba(238, 143, 0, 0.377) !important;
+}
+
+.trabalhe-conosco button:focus {
+    border: 1px solid rgb(238, 143, 0);
+    box-shadow: 0 0px 2px 3px rgba(238, 143, 0, 0.377) !important;
+}
+
+/* rodapé */
+.rodape {
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+    background-color: #343a40;
+}
+
+.rodape a {
+    color: rgb(238, 143, 0);
+}
+
+.rodape a:hover {
+    color: rgb(238, 143, 0);
+}

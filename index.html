@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <!-- configuração padrão html 5 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- titulo da página (aba do navegador) e ícone -->
+    <title>Shelby Repair</title> 
+    <link rel="icon" href="./img/favicon.ico"> 
+
+    <!-- css da página -->
+    <link rel="stylesheet" href="./css/style.css"> 
+
+    <!-- css (bootstrap) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- fonte de texto externa -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- ícone font awesome -->
+    <script src="https://kit.fontawesome.com/fb36d33434.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- cabeçalho da página -->
+    <header>
+
+      <!-- barra de navegação superior -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <!-- logo e nome -->
+        <div class="logo-topbar">
+          <a class="navbar-brand mr-auto" href="#">
+            <img src="./img/logo.png" width="45" height="31" class="d-inline-block align-top" alt="">
+            Shelby Repair
+          </a>
+        </div>
+
+        <!-- ícone collapse -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
+            <i class="fas fa-bars"></i>
+        </button>
+      
+        <!-- menu de navegação -->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicos">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trabalheConosco">Trabalhe Conosco</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- apresentação da página -->
+      <section id="inicio" class="apresentacao bg-dark">
+        <div class="container-fluid"> 
+          <div class="row bg-dark">
+            <div class="col text-center">
+              <img src="./img/logo.png" alt="">
+              <h1>Mecânica Automotiva</h1>
+              <p>"Compromisso e qualidade com nossos clientes"</p>
+              <a href="#sobre"><button type="button" class="btn btn-outline-success">Saiba Mais!</button></a>
+            </div>
+          <div>
+        </div>
+      </section>
+      
+    </header>
+
+    <!-- conteúdo da página -->
+    <main>
+      <div class="container-fluid ">
+
+        <!-- imagens -->
+        <section class="row imagens bg-dark"> 
+          <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="./img/foto1.jpg" alt="Homem consertando carro">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="./img/foto2.jpg" alt="Oficina mecânica com carro vermelho">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="./img/foto3.jpg" alt="Lateral de carro esportivo">
+            </div>
+          </div>
+          <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="./img/foto4.jpg" alt="Roda de carro esportivo">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="./img/foto5.jpg" alt="Oficina mecânica com carro preto antigo">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="./img/foto6.jpg" alt="Homem ajustando peças no motor do carro">
+            </div>
+          </div>
+        </section>
+
+        <!-- sobre -->
+        <section id="sobre">
+          <div class="sobre row bg-dark">
+            <div class="col">
+              <!-- coluna vazia -->
+            </div>
+
+            <div class="col-8 text-center">
+              <h2>Sobre</h2>
+              <p>A Shelby Repair é uma das maiores oficinas de mecânica automotiva do Brasil, possuindo 5 filiais e uma sede localizada em Campinas-SP. Atuamos no mercado de reparos há 20 anos, e possuimos uma equipe de profissionais altamente qualificados, para atender seu veículo com a melhor qualidade já vista.</p>
+              <p>Se interessou? Conheça a seguir nossos serviços:</p>
+            </div>
+
+            <div class="col">
+              <!-- coluna vazia -->
+            </div>
+          <div>
+        </section>
+
+        <!-- servicos -->
+        <section id="servicos" class="servicos text-center">
+          <h2>Serviços</h2>
+          <div class="card-deck margin-card">
+            <div class="card">
+              <img src="./img/servico1.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold">Análise do Veículo</h5>
+                <p class="card-text">Precisa realizar manutenções e não sabe por onde começar? Nós analisamos seu veículo por completo e geramos relatórios com as informações detectadas.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./img/servico2.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold">Reparos em Geral</h5>
+                <p class="card-text">Realizamos reparos em geral no seu veículo, utilizando as melhores ferramentas e procedimentos avançados, para que o problema seja resolvido definitivamente.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./img/servico3.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold">Troca de Bateria</h5>
+                <p class="card-text">A bateria acabou? Nós trocamos para você! Através de nossa rede de parceiros, temos a possibilidade de atender as especificações de praticamente todos fabricantes.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-deck">
+            <div class="card">
+              <img src="./img/servico4.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold">Troca de Fluidos</h5>
+                <p class="card-text">Como estão os fluídos do seu veículo? Além de realizarmos uma análise completa, oferecemos a troca dos fluídos (óleo do motor, freio, câmbio etc...).</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./img/servico5.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold">Reposição de Peças</h5>
+                <p class="card-text">Alguma peça está velha ou danificada? Nós temos a solução! Temos contato com uma rede de fornecedores peças da melhor qualidade e procedência.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./img/servico6.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold">Serviço de Guincho 24hrs</h5>
+                <p class="card-text">Não acaba por aqui, oferecemos serviço guincho 24hrs, caso seu veículo danifique dentro das regiões atendidas no Brasil, para saber mais, entre em contato.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- contato -->
+        <section id="contato" class="contato">
+          <h2>Contato</h2>          
+          <div class="row">
+            <div class="col-sm text-center d-flex flex-column justify-content-center align-items-center">
+              <img src="./img/atendente.png" alt="">
+            </div>
+
+            <div class="col-sm">
+              <form action="index.html">
+                <label for="exampleFormControlSelect1">Nome Completo:</label>
+                <div class="form-group form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Nome">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Sobrenome">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Endereço de email:</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Veículo:</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Carro</option>
+                    <option>Van</option>
+                    <option>Caminhão</option>
+                    <option>Motocicleta</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Descrição do serviço:</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <div class="col text-center">
+                <button class="btn btn-primary" type="submit">Enviar Solicitação</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <!-- endereco -->
+        <section id="endereco" class="endereco">
+          <h2>Também pode nos visitar pessoalmente:</h2>
+          <div class="row d-flex justify-content-center align-items-center"> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.101105694693!2d-47.073197285400276!3d-22.909641343731657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c8b913bd4e85%3A0x5e1212b96161d67d!2sR.%20Dr.%20Sales%20de%20Oliveira%2C%201148%20-%20Vila%20Industrial%20(Campinas)%2C%20Campinas%20-%20SP%2C%2013035-270!5e0!3m2!1spt-BR!2sbr!4v1640477319869!5m2!1spt-BR!2sbr" width="1215" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </section>
+                
+        <!-- trabalhe conosco -->
+        <section id="trabalheConosco" class="row trabalhe-conosco">
+          <div class="col">
+            <h2>Trabalhe Conosco</h2>  
+            <form action="index.html">
+              <label for="exampleFormControlSelect1">Nome Completo:</label>
+              <div class="form-group form-row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Nome">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Sobrenome">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Endereço de email:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+              </div>
+              <label for="exampleFormControlInput1">Cúrriculo:</label>
+              <div class="form-group">
+                <input type="button" id="loadFileXml" value="Carregar arquivo .pdf ou .docx "onclick="document.getElementById('file').click();" />
+                <input type="file" style="display:none;" id="file" name="file"/>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Observação:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="col text-center">
+                <button class="btn btn-primary" type="submit">Enviar Currículo</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- rodapé da página -->
+    <footer class="rodape text-center">
+      <a class="rodape__link" href="#">Voltar ao Início</a>
+      <p> Shelby Repair - Desenvolvido por: Power TI</p>
+    </footer>
+
+    <!-- javascript (bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+</body>
+</html>
